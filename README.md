@@ -1,5 +1,9 @@
 # Errata1337
 
+This is a proof of concept implementation of the article on my blog:
+
+TODO: Add article link.
+
 ## License
 
 Licensed under MIT license.
