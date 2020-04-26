@@ -1,6 +1,6 @@
 # Errata1337
 
-This is a proof of concept implementation of the article on my blog:
+This is a proof of concept implementation following the write-up on my blog:
 
 [https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/)
 
