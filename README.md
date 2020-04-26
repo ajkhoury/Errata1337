@@ -2,7 +2,7 @@
 
 This is a proof of concept implementation of the article on my blog:
 
-TODO: Add article link.
+[https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/)
 
 ## License
 
