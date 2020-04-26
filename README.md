@@ -1,4 +1,4 @@
-# Errata1337
+# LSTAR Hook Detection
 
 This is a proof of concept implementation following the write-up on my blog:
 
