@@ -196,16 +196,8 @@ IpiBroadcastCallback(
     TempIdt[X86_TRAP_MC] = KeGetPcr()->IdtBase[X86_TRAP_MC];
 
     //
-    // Set handler addresses to fallback handler.
+    // Set handler address to fallback handler temporarily.
     //
-    TempIdt[X86_TRAP_DB].Bytes.OffsetLow = (UINT16)(UINTN)FallbackHandler;
-    TempIdt[X86_TRAP_DB].Bytes.OffsetMiddle = (UINT16)((UINTN)FallbackHandler >> 16);
-    TempIdt[X86_TRAP_DB].Bytes.OffsetHigh = (UINT32)((UINTN)FallbackHandler >> 32);
-
-    TempIdt[X86_TRAP_GP].Bytes.OffsetLow = (UINT16)(UINTN)FallbackHandler;
-    TempIdt[X86_TRAP_GP].Bytes.OffsetMiddle = (UINT16)((UINTN)FallbackHandler >> 16);
-    TempIdt[X86_TRAP_GP].Bytes.OffsetHigh = (UINT32)((UINTN)FallbackHandler >> 32);
-
     TempIdt[X86_TRAP_PF].Bytes.OffsetLow = (UINT16)(UINTN)FallbackHandler;
     TempIdt[X86_TRAP_PF].Bytes.OffsetMiddle = (UINT16)((UINTN)FallbackHandler >> 16);
     TempIdt[X86_TRAP_PF].Bytes.OffsetHigh = (UINT32)((UINTN)FallbackHandler >> 32);
