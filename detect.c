@@ -191,9 +191,7 @@ IpiBroadcastCallback(
     //
     // Copy needed interrupt handlers from original IDT.
     //
-    TempIdt[X86_TRAP_DB] = KeGetPcr()->IdtBase[X86_TRAP_DB];
     TempIdt[X86_TRAP_NMI] = KeGetPcr()->IdtBase[X86_TRAP_NMI];
-    TempIdt[X86_TRAP_GP] = KeGetPcr()->IdtBase[X86_TRAP_GP];
     TempIdt[X86_TRAP_PF] = KeGetPcr()->IdtBase[X86_TRAP_PF];
     TempIdt[X86_TRAP_MC] = KeGetPcr()->IdtBase[X86_TRAP_MC];
 
