@@ -8,6 +8,8 @@ NOTE: This *is* Patchguard compatible. However this is not VBS/Hypergaurd compat
 
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard:EnableVirtualizationBasedSecurity`
 
+Alternatively you can set the current BCD entry `hypervisorlaunchtype` to `off`.
+
 ## License
 
 Licensed under MIT license.
