@@ -4,7 +4,9 @@ This is a proof of concept implementation following the write-up on my blog:
 
 [https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/](https://revers.engineering/patchguard-detection-of-hypervisor-based-instrospection-p2/)
 
-NOTE: This *is* Patchguard compatible. However this is not VBS/Hypergaurd compatible.
+NOTE: This *is* Patchguard compatible. However this is not VBS/Hypergaurd compatible. To force disable VBS, set the following DWORD key to 0:
+
+`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard:EnableVirtualizationBasedSecurity`
 
 ## License
 
